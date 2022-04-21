@@ -1,14 +1,16 @@
 # WebScraping-PythonScript
-Script en Python qui envoie un email lors de chaque changement sur la page.
+Python Script for scraping cryptocurrencies chnages and notify with mail on every change made .
 
 -Les étapes pour tester ce script : 
 
-      * Télécharger et installer Python 
+      * Download and install Python
       
-      * Installer Selenium : pip install selenium
+      * Install Selenium : pip install selenium
       
-      * Télécharger ChromeDriver suivant votre version du chrome depuis ce site : https://sites.google.com/chromium.org/driver/ 
+      * Download ChromeDriver : https://sites.google.com/chromium.org/driver/ 
       
-      * Déplacer le fichier de ChromeDriver sous C:\Program Files (x86)\chromedriver.exe ou vous pouvez le déplacer ou est ce que vous voulez et changer son chemin dans le code du script
+      * Move ChromeDriver file to C:\Program Files (x86)\chromedriver.exeor you can move it or whatever you want and change its path in the script code
       
-      * Lancer le script
+      * Change Email and mail body (optional)
+      
+      * Run the script
