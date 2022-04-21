@@ -20,10 +20,10 @@ previousRoe = ""
 
 
 def send_email():
-    gmailaddress = "entretiennapoleangroup@gmail.com \n "
-    gmailpassword = "Entretien123. \n  "
-    mailto = "ghazi@napoleonx.ai \n"
-    msg = "Bonjour Mr Ghazi, \n \n  Il y a un changement de prix . \n Le dernier prix est : " + previousPrice + " \n Le nouveau prix est : " + price + " \n \n Le dernier taux est :" + previousRoe + " \n Le nouveau taux est : " + roe + " \n"
+    gmailaddress = "test@example.com \n "
+    gmailpassword = "test123* \n  "
+    mailto = "test1@example.com \n"
+    msg = "Bonjour Mr test1, \n \n  Il y a un changement de prix . \n Le dernier prix est : " + previousPrice + " \n Le nouveau prix est : " + price + " \n \n Le dernier taux est :" + previousRoe + " \n Le nouveau taux est : " + roe + " \n"
     try:
         mailServer = smtplib.SMTP('smtp.gmail.com', 587)
         mailServer.starttls()
